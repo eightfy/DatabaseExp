@@ -9,7 +9,7 @@ def mainview(request):
 def addview(request):
     return render(request, 'add.html')
 #
-def news(request):
+def display_order(request):
     Order_list = Order.objects.all()  
     # 获取Order表中的全部内容
     return render(request, 'main.html', locals())  
