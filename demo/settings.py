@@ -80,7 +80,7 @@ DATABASES = {#连接的mysql配置
     'ENGINE': 'django.db.backends.mysql',#数据库的类型
     'NAME': 'datademo', #所使用的的数据库的名字
     'USER': 'root', #数据库服务器的用户
-    'PASSWORD': '', #密码
+    'PASSWORD': '345245', #密码
     'HOST': '127.0.0.1', #主机
     'PORT': '3306', #端口
     }

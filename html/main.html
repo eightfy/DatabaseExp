@@ -50,8 +50,13 @@
                 </thead>
 
                 <tbody>
+                    {% for Order in Order_list %}
                     <tr>
+                        <th scope="row">{{ Order.id }}</th>
+                        <td>{{ Order.id }}</td>
+                        <td>{{Order.submit_date}}</td>
                     </tr>
+                    {% endfor %}
                 </tbody>
             </table>
         </div>
